@@ -1,0 +1,31 @@
+{
+    "timestamp": "auto",
+    "risk": {
+        "score": 90,
+        "level": "HIGH"
+    },
+    "findings": [
+        {
+            "name": "OPEN_PORTS",
+            "status": "ERROR",
+            "data": "Run on Linux/WSL only"
+        },
+        {
+            "name": "FIREWALL_STATUS",
+            "status": "HIGH_RISK",
+            "data": "Run on Linux/WSL only"
+        },
+        {
+            "name": "USER_ACCOUNTS",
+            "status": "INFO",
+            "data": {
+                "total_users": 0
+            }
+        },
+        {
+            "name": "SSH_CONFIG",
+            "status": "OK",
+            "data": ""
+        }
+    ]
+}

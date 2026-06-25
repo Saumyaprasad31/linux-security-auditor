@@ -1,0 +1,36 @@
+
+    <html>
+    <head>
+        <title>Security Report</title>
+        <style>
+            body { font-family: Arial; margin: 20px; }
+            .HIGH { color: red; }
+            .MEDIUM { color: orange; }
+            .LOW { color: green; }
+            .box { border: 1px solid #ccc; padding: 10px; margin: 10px; }
+        </style>
+    </head>
+    <body>
+
+    <h1>Linux Security Audit Report</h1>
+
+    <h2>Risk: HIGH</h2>
+    <h3>Score: 90</h3>
+
+    <hr>
+    <h2>Findings</h2>
+    
+        <div class="box">
+            <h3>FIREWALL_DISABLED</h3>
+            <p class="HIGH">
+                Firewall is disabled
+            </p>
+        </div>
+        
+        <div class="box">
+            <h3>ROOT_LOGIN_SSH</h3>
+            <p class="HIGH">
+                Root login enabled in SSH
+            </p>
+        </div>
+        </body></html>

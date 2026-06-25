@@ -1,0 +1,21 @@
+{
+    "timestamp": "2026-06-25 07:02:45",
+    "risk": {
+        "score": 90,
+        "level": "HIGH"
+    },
+    "findings": [
+        {
+            "id": "FIREWALL_DISABLED",
+            "name": "FIREWALL",
+            "severity": "HIGH",
+            "message": "Firewall is disabled"
+        },
+        {
+            "id": "ROOT_LOGIN_SSH",
+            "name": "FIREWALL",
+            "severity": "HIGH",
+            "message": "Root login enabled in SSH"
+        }
+    ]
+}

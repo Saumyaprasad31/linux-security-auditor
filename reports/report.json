@@ -1,0 +1,29 @@
+{
+    "password_policy": {
+        "status": "OK",
+        "file_size": 803,
+        "note": "Basic file read successful (Windows test)"
+    },
+    "firewall": {
+        "status": "skipped"
+    },
+    "open_ports": {
+        "status": "skipped"
+    },
+    "users": {
+        "status": "skipped"
+    },
+    "ssh": {
+        "status": "skipped"
+    },
+    "world_writable": {
+        "status": "skipped"
+    },
+    "meta": {
+        "timestamp": "2026-06-25T06:24:27.956412",
+        "tool": "Linux Security Auditor",
+        "version": "2.1",
+        "status": "clean",
+        "os": "windows"
+    }
+}
